@@ -24,13 +24,13 @@ export default function Dashboard({index}){
         <>
         <aside id="big_screen">
             <div id="logo_container">
-                <h2>Logo</h2>
+                <h2>Collaborative Management System</h2>
             </div>
             <ul>
                           
-                <li className="dash_list" key={1}>
+                {/* <li className="dash_list" key={1}>
                 <i  className="fa-solid fa-bars-staggered"></i> <h5>Dashboard</h5>
-                </li>
+                </li> */}
                 <Link to={"/ListView"} style={{textDecoration :"none"}}>     
                 <li className="dash_list" ref={list}>
                 <i className="fa-solid fa-list-check" ></i><h5>List</h5>
